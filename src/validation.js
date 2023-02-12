@@ -55,7 +55,7 @@ export const validatePassword = (value) => {
 }
 
 export const validatePasswordsMatch = (value, value2) => {
-   if (value, value2){
+   if (value && value2){
       if (value === value2) {
          return undefined;
       } else {
