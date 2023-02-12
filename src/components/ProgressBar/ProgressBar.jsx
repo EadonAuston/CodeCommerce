@@ -7,7 +7,7 @@ library.add(faCheck, faTruck, faCreditCard, faCircleCheck );
 
 
 
-const ProgressBar = ({shipping, confirmation,...props}) => (
+const ProgressBar = ({shipping, confirmation}) => (
   
    <div>
       <div className={`${style.flexbox} ${style.ml14}`}>

@@ -250,7 +250,7 @@ class ShippingInfo extends React.Component {
                 <input type="radio" className={style.w5} onClick={this.props.toggleExpressShipping} name="method" id="2" defaultChecked={this.props.shippingCost === 5 ? true : false}/>
                 <label htmlFor="" className={style.w15}>EXPRESS</label>
                 <span>Deliver in 1 to 3 Business Days - $5.00</span>
-                <a href="#" className={style.ml25}>View Shipping Details</a>
+                <p className={style.ml25}>View Shipping Details</p>
               </div>
               <button className={style.backButton} onClick={() => {this.props.reversePage()}}>BACK TO CART</button>
               
