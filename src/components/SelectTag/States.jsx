@@ -1,5 +1,5 @@
 import React from "react";
-import style from '../PaymentInfo/PaymentInfo.module.css'
+
 
 const States = () => (
    <select placeholder="Select">

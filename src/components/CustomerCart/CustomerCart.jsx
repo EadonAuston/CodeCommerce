@@ -102,7 +102,7 @@ class CustomerCart extends React.Component {
   }
 
   cartTotal = () => {
-   const {totalPrice1, totalPrice2, totalPrice3, totalPrice4, totalPrice5} = this.state;
+   // const {totalPrice1, totalPrice2, totalPrice3, totalPrice4, totalPrice5} = this.state;
    this.setState({
       cartTotal: this.props.cartTotal,
    })

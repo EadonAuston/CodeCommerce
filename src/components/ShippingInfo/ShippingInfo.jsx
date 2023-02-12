@@ -1,9 +1,9 @@
 import React from "react";
 import style from '../ShippingInfo/ShippingInfo.module.css';
 import ShippingProduct from "./ShippingProduct";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faTruck, faCreditCard, faCircleCheck } from '@fortawesome/free-solid-svg-icons';
-import {validate, testPassword, matchPasswords, validateStr, validateEmail, validatePassword, validatePasswordsMatch, validatePostCode, validatePhoneNumber} from '../../validation'
+import {validate, validateStr,  validatePostCode, validatePhoneNumber} from '../../validation'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import ProgressBar from "../ProgressBar/ProgressBar";
 import Countries from "../SelectTag/Countries";

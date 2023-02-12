@@ -1,6 +1,6 @@
 import './App.css';
 import Main from './components/Main/Main';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 
 function App() {
